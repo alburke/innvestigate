@@ -8,8 +8,8 @@ from builtins import zip
 ###############################################################################
 ###############################################################################
 
-
-import keras.backend as K
+import tensorflow as tf
+import tf.keras.backend as K
 
 
 __all__ = [
