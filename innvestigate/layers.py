@@ -7,13 +7,13 @@ from builtins import range, zip
 ###############################################################################
 ###############################################################################
 ###############################################################################
+import tensorflow as tf
 
-import keras
-import keras.backend as K
-import keras.constraints
-import keras.layers
-import keras.regularizers
-from keras.utils import conv_utils
+import tf.keras.backend as K
+import tf.keras.constraints
+import tf.keras.layers
+import tf.keras.regularizers
+from tf.keras.utils import conv_utils
 import numpy as np
 
 
